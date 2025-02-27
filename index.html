@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥 Revolucione sua Saúde - Método Exclusivo de Transformação Garantida</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            background: url('https://images.unsplash.com/photo-1498837167922-ddd27525d352') center/cover;
+            position: relative;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            max-width: 600px;
+            padding: 40px;
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            color: #fff;
+        }
+        
+        .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            color: #f0f0f0;
+        }
+        
+        .cta-form {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        .cta-button {
+            background: #FF4B4B;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s;
+            width: 100%;
+        }
+        
+        .cta-button:hover {
+            background: #E63E3E;
+        }
+        
+        .benefits {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .benefit-card {
+            text-align: center;
+            padding: 30px;
+            border-radius: 10px;
+            background: #f8f9fa;
+            transition: transform 0.3s;
+        }
+        
+        .benefit-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .benefit-icon {
+            font-size: 40px;
+            margin-bottom: 20px;
+            color: #FF4B4B;
+        }
+        
+        .testimonials {
+            padding: 80px 0;
+            background: #f8f9fa;
+        }
+        
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .testimonial-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .timer {
+            background: #FF4B4B;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: 700;
+            margin-bottom: 0;
+            animation: pulse 2s infinite;
+        }
+        
+        .top-bar {
+            background: #1a1a1a;
+            color: white;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+        
+        .social-proof {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .live-counter {
+            animation: blink 2s infinite;
+        }
+        
+        .trust-elements {
+            margin-top: 20px;
+            padding: 15px;
+            border: 2px dashed #FF4B4B;
+            border-radius: 8px;
+            background: #fff5f5;
+        }
+        
+        .guarantee-text,
+        .bonus-text,
+        .payment-methods {
+            margin: 10px 0;
+            font-weight: 500;
+            color: #333;
+        }
+        
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.6;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        /* Notification Styles */
+        
+        .floating-notification {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            display: none;
+            z-index: 1000;
+            animation: slideIn 0.5s ease-out;
+        }
+        
+        .notification-content {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .notification-avatar {
+            font-size: 24px;
+        }
+        
+        .notification-text {
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        /* Progress Bar Styles */
+        
+        .progress-bar-container {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            padding: 15px;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+            z-index: 999;
+        }
+        
+        .progress-bar {
+            height: 12px;
+            background: #f0f0f0;
+            border-radius: 6px;
+            overflow: hidden;
+            margin-top: 8px;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #FF4B4B, #FF6B6B);
+            transition: width 0.5s ease;
+            box-shadow: 0 0 10px rgba(255, 75, 75, 0.5);
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .subtitle {
+                font-size: 1.1rem;
+            }
+            .hero-content {
+                padding: 20px;
+                max-width: 100%;
+            }
+            .floating-notification {
+                left: 10px;
+                right: 10px;
+                bottom: 70px;
+            }
+            .benefits-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            .testimonial-grid {
+                grid-template-columns: 1fr;
+            }
+            .cta-form {
+                padding: 20px;
+            }
+            .social-proof {
+                flex-direction: column;
+                text-align: center;
+            }
+            .container {
+                padding: 0 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="timer" id="timer">⚡ URGENTE: Esta oferta ÚNICA expira em <span id="countdown">06:00:00</span> - NÃO PERCA! ⏰</div>
+    <div class="top-bar">
+        <div class="container">
+            <div class="social-proof">
+                <span class="live-counter">🔴 127 pessoas estão vendo esta página agora</span>
+                <span class="trust-badge">✓ 98.7% de Satisfação</span>
+                <span class="guarantee">🏆 Resultado Garantido</span>
+            </div>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>TRANSFORME SEU CORPO EM APENAS 8 SEMANAS - GARANTIDO!</h1>
+                <p class="subtitle">🎯 REVELADO: O método revolucionário que já transformou +10.000 vidas! Resultados REAIS em apenas 21 dias ou seu dinheiro 100% de volta!</p>
+
+                <div class="cta-form">
+                    <h2 style="color: #FF4B4B; margin-bottom: 20px; font-size: 24px; text-transform: uppercase;">🔥 MEGA OFERTA RELÂMPAGO: 70% OFF + BÔNUS VIP</h2>
+                    <form id="waitlist-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Seu melhor e-mail" required>
+                        </div>
+                        <button type="submit" class="cta-button" style="animation: pulse 2s infinite;">🔒 SIM! QUERO TRANSFORMAR MEU CORPO AGORA! ➔</button>
+                    </form>
+                    <p style="margin-top: 15px; font-size: 16px; color: #FF4B4B; text-align: center; font-weight: bold;">⚠️ ALERTA: Últimas 7 vagas com desconto MÁXIMO!
+                        <br><span style="font-size: 14px; color: #666;">873 pessoas na lista de espera - Não arrisque ficar de fora!</span></p>
+                    <div class="trust-elements">
+                        <p class="guarantee-text">✓ 30 dias de Garantia Incondicional</p>
+                        <p class="bonus-text">🎁 3 Bônus Exclusivos (Valor: R$497)</p>
+                        <div class="payment-methods">💳 Pagamento Seguro em até 12x</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 40px;">Por que nosso programa é diferente?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎯</div>
+                    <h3>Resultados Comprovados</h3>
+                    <p>Metodologia cientificamente testada com mais de 10.000 casos de sucesso</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">📱</div>
+                    <h3>Acompanhamento Exclusivo</h3>
+                    <p>Suporte personalizado 24/7 com nossa equipe de especialistas</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎓</div>
+                    <h3>Material Completo</h3>
+                    <p>Acesso a todo conteúdo e atualizações vitalícias</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 40px;">Histórias Reais de Transformação</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                        <div class="results">-15kg em 12 semanas</div>
+                    </div>
+                    <p>"Seguindo o programa à risca, consegui perder 15kg em apenas 3 meses! A mudança foi completa - não só emagreci, mas ganhei energia, disposição e autoestima. O acompanhamento nutricional personalizado e os treinos adaptados fizeram
+                        toda a diferença. Hoje me sinto uma nova pessoa!"</p>
+                    <div class="testimonial-footer">
+                        <h4>Maria Silva, 32 anos</h4>
+                        <p style="color: #666;">São Paulo - SP</p>
+                        <span class="verified">✓ Resultado Verificado</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                        <div class="results">-22kg em 16 semanas</div>
+                    </div>
+                    <p>"Tentei várias dietas antes, mas nada funcionava a longo prazo. Este programa mudou minha vida! Em 4 meses, perdi 22kg e, o mais importante, aprendi a manter o peso. O suporte 24/7 da equipe e o material educativo são excepcionais.
+                        Vale cada centavo investido!"</p>
+                    <div class="testimonial-footer">
+                        <h4>João Santos, 45 anos</h4>
+                        <p style="color: #666;">Rio de Janeiro - RJ</p>
+                        <span class="verified">✓ Resultado Verificado</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                        <div class="results">-18kg em 14 semanas</div>
+                    </div>
+                    <p>"Como mãe de 3 filhos, achei que nunca mais conseguiria recuperar minha forma. Este programa provou que eu estava errada! Os treinos flexíveis e o plano alimentar prático se encaixaram perfeitamente na minha rotina. Em 14 semanas,
+                        perdi 18kg e recuperei minha autoestima!"</p>
+                    <div class="testimonial-footer">
+                        <h4>Ana Oliveira, 38 anos</h4>
+                        <p style="color: #666;">Curitiba - PR</p>
+                        <span class="verified">✓ Resultado Verificado</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                        <div class="results">-25kg em 20 semanas</div>
+                    </div>
+                    <p>"Como empresário, minha rotina era muito corrida e desregulada. O programa me ensinou a priorizar minha saúde sem sacrificar minha carreira. Os resultados foram além das expectativas: -25kg, pressão arterial normalizada e muito mais
+                        disposição para trabalhar e curtir a família!"</p>
+                    <div class="testimonial-footer">
+                        <h4>Roberto Mendes, 41 anos</h4>
+                        <p style="color: #666;">Belo Horizonte - MG</p>
+                        <span class="verified">✓ Resultado Verificado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="floating-notification" id="floating-notification">
+        <div class="notification-content">
+            <span class="notification-avatar">👤</span>
+            <div class="notification-text">
+                <strong id="notification-name">Ana S.</strong> acabou de se inscrever!
+                <small id="notification-location">São Paulo, SP</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="progress-bar-container">
+        <div class="progress-text">🔥 Vagas preenchidas: <span id="progress-percentage">93</span>%</div>
+        <div class="progress-bar">
+            <div class="progress-fill" style="width: 93%;"></div>
+        </div>
+    </div>
+
+    <script>
+        // Optimized Countdown Timer with cleanup
+        let timerInterval;
+
+        function startTimer(duration, display) {
+            let timer = duration;
+
+            function updateDisplay() {
+                const hours = Math.floor(timer / 3600);
+                const minutes = Math.floor((timer % 3600) / 60);
+                const seconds = timer % 60;
+
+                display.textContent =
+                    `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+
+                if (timer > 0) {
+                    timer--;
+                }
+            }
+
+            updateDisplay();
+            clearInterval(timerInterval);
+            timerInterval = setInterval(updateDisplay, 1000);
+        }
+
+        // Optimized Form Submission with validation
+        const waitlistForm = document.getElementById('waitlist-form');
+        if (waitlistForm) {
+            waitlistForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const nameInput = this.querySelector('input[type="text"]');
+                const emailInput = this.querySelector('input[type="email"]');
+
+                if (nameInput.value.trim() && emailInput.value.trim()) {
+                    alert('Parabéns! Você foi adicionado à lista de espera. Em breve entraremos em contato!');
+                    this.reset();
+                }
+            });
+        }
+
+        // Optimized Floating Notifications with throttling
+        const names = ['Ana S.', 'Pedro M.', 'Julia R.', 'Carlos B.', 'Mariana L.'];
+        const locations = ['São Paulo, SP', 'Rio de Janeiro, RJ', 'Curitiba, PR', 'Belo Horizonte, MG', 'Salvador, BA'];
+        const notification = document.getElementById('floating-notification');
+        let notificationTimeout;
+
+        function showNotification() {
+            if (!notification) return;
+
+            const randomName = names[Math.floor(Math.random() * names.length)];
+            const randomLocation = locations[Math.floor(Math.random() * locations.length)];
+
+            const nameElement = document.getElementById('notification-name');
+            const locationElement = document.getElementById('notification-location');
+
+            if (nameElement && locationElement) {
+                nameElement.textContent = randomName;
+                locationElement.textContent = randomLocation;
+
+                notification.style.display = 'block';
+                clearTimeout(notificationTimeout);
+
+                notificationTimeout = setTimeout(() => {
+                    notification.style.display = 'none';
+                }, 5000);
+            }
+        }
+
+        // Optimized Live Counter with debouncing
+        const liveCounter = document.querySelector('.live-counter');
+        let baseCount = 127;
+        let counterTimeout;
+
+        function updateCounter() {
+            if (!liveCounter) return;
+
+            clearTimeout(counterTimeout);
+            counterTimeout = setTimeout(() => {
+                const variation = Math.floor(Math.random() * 7) - 3;
+                baseCount = Math.max(100, Math.min(150, baseCount + variation));
+                liveCounter.textContent = `🔴 ${baseCount} pessoas estão vendo esta página agora`;
+                updateCounter();
+            }, 5000);
+        }
+
+        // Optimized Progress Bar Animation with RAF
+        const progressFill = document.querySelector('.progress-fill');
+        const progressPercentage = document.getElementById('progress-percentage');
+        let currentProgress = 93;
+        let progressRAF;
+
+        function updateProgress() {
+            if (progressFill && progressPercentage && currentProgress < 95) {
+                currentProgress += 0.01;
+                progressFill.style.width = `${currentProgress}%`;
+                progressPercentage.textContent = Math.floor(currentProgress);
+                progressRAF = requestAnimationFrame(updateProgress);
+            }
+        }
+
+        // Initialize everything when DOM is ready
+        document.addEventListener('DOMContentLoaded', function() {
+            const countdownElement = document.querySelector('#countdown');
+            if (countdownElement) {
+                startTimer(6 * 60 * 60, countdownElement);
+            }
+
+            setInterval(showNotification, 15000);
+            updateCounter();
+            updateProgress();
+        });
+
+        // Cleanup on page unload
+        window.addEventListener('unload', function() {
+            clearInterval(timerInterval);
+            clearTimeout(notificationTimeout);
+            clearTimeout(counterTimeout);
+            cancelAnimationFrame(progressRAF);
+        });
+    </script>
+</body>
+
+</html>
