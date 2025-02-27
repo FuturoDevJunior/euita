@@ -1,18 +1,33 @@
 <div align="center">
 
-# 🔥 Landing Page de Transformação | High-Impact Conversion Page
+# 🔥 Landing Page de Transformação | High-Impact Conversion Page | Página de Conversión de Alto Impacto
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/DevFerreiraG)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/FuturoDevJunior/euita)
 
 </div>
 
-## 🌟 Overview
+# 🌟 Visão Geral | Overview | Visión General
 
-A high-converting landing page built with modern web technologies, featuring dynamic elements and sophisticated UI components for maximum engagement and conversion optimization.
+**[PT]** Uma landing page de alta conversão construída com tecnologias web modernas, apresentando elementos dinâmicos e componentes de UI sofisticados para máximo engajamento e otimização de conversão.
 
-## ✨ Key Features
+**[EN]** A high-converting landing page built with modern web technologies, featuring dynamic elements and sophisticated UI components for maximum engagement and conversion optimization.
 
+**[ES]** Una página de aterrizaje de alta conversión construida con tecnologías web modernas, que presenta elementos dinámicos y componentes de UI sofisticados para máximo compromiso y optimización de conversión.
+
+## ✨ Recursos Principais | Key Features | Características Principales
+
+**[PT]**
+- ⏰ Contador regressivo dinâmico com mensagens de urgência
+- 👥 Contador de visitantes em tempo real com prova social
+- 🔔 Sistema inteligente de notificações mostrando conversões recentes
+- 📱 Design totalmente responsivo para todos os dispositivos
+- 🎨 UI/UX moderno e otimizado para conversão
+- ⚡ Animações e transições otimizadas para performance
+- 💫 Efeitos interativos de hover e transições suaves
+- 🎯 Elementos de construção de confiança e garantias
+
+**[EN]**
 - ⏰ Dynamic countdown timer with urgency messaging
 - 👥 Real-time visitor counter with social proof
 - 🔔 Smart notification system showing recent conversions
@@ -22,53 +37,63 @@ A high-converting landing page built with modern web technologies, featuring dyn
 - 💫 Interactive hover effects and smooth transitions
 - 🎯 Trust-building elements and guarantees
 
-## 🛠 Technical Stack
+**[ES]**
+- ⏰ Temporizador de cuenta regresiva dinámico con mensajes de urgencia
+- 👥 Contador de visitantes en tiempo real con prueba social
+- 🔔 Sistema inteligente de notificaciones mostrando conversiones recientes
+- 📱 Diseño totalmente responsivo para todos los dispositivos
+- 🎨 UI/UX moderno y optimizado para conversión
+- ⚡ Animaciones y transiciones optimizadas para rendimiento
+- 💫 Efectos interactivos de hover y transiciones suaves
+- 🎯 Elementos de construcción de confianza y garantías
 
-### Core Technologies
+## 🛠 Stack Técnico | Technical Stack | Stack Técnico
 
-- **HTML5** - Semantic markup structure
-- **CSS3** - Modern features including:
-  - CSS Custom Properties (Variables)
-  - Flexbox & Grid layouts
-  - Advanced animations and transitions
-  - Media queries for responsive design
-  - Hardware-accelerated animations
-- **JavaScript** - Dynamic features including:
-  - Countdown timer implementation
-  - Live visitor counter
-  - Notification system
-- **Google Fonts** - Poppins font family for modern typography
+### Tecnologias Principais | Core Technologies | Tecnologías Principales
 
-### Performance Features
+- **HTML5** - Estrutura de marcação semântica | Semantic markup structure | Estructura de marcado semántico
+- **CSS3**:
+  - Propriedades Customizadas CSS (Variáveis) | CSS Custom Properties (Variables) | Propiedades Personalizadas CSS (Variables)
+  - Layouts Flexbox & Grid | Flexbox & Grid layouts | Layouts Flexbox & Grid
+  - Animações e transições avançadas | Advanced animations and transitions | Animaciones y transiciones avanzadas
+  - Media queries para design responsivo | Media queries for responsive design | Media queries para diseño responsivo
+  - Animações aceleradas por hardware | Hardware-accelerated animations | Animaciones aceleradas por hardware
+- **JavaScript**:
+  - Implementação do contador regressivo | Countdown timer implementation | Implementación del temporizador de cuenta regresiva
+  - Contador de visitantes ao vivo | Live visitor counter | Contador de visitantes en vivo
+  - Sistema de notificações | Notification system | Sistema de notificaciones
+- **Google Fonts** - Família de fontes Poppins | Poppins font family | Familia de fuentes Poppins
 
-- ⚡ Optimized animation performance with CSS transforms
-- 🚀 Hardware-accelerated transitions for smooth interactions
-- 📱 Mobile-first responsive design approach
-- 🎯 Efficient CSS architecture with custom properties
-- 🔄 Progressive enhancement strategy
+### Recursos de Performance | Performance Features | Características de Rendimiento
 
-## 🌐 Browser Support
+- ⚡ Animações otimizadas com transformações CSS | Optimized animations with CSS transforms | Animaciones optimizadas con transformaciones CSS
+- 🚀 Transições aceleradas por hardware | Hardware-accelerated transitions | Transiciones aceleradas por hardware
+- 📱 Abordagem mobile-first | Mobile-first approach | Enfoque mobile-first
+- 🎯 Arquitetura CSS eficiente | Efficient CSS architecture | Arquitectura CSS eficiente
+- 🔄 Estratégia de melhoria progressiva | Progressive enhancement strategy | Estrategia de mejora progresiva
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+## 🌐 Suporte de Navegadores | Browser Support | Soporte de Navegadores
 
-## 📱 Responsive Design
+- Chrome (última versão | latest | última versión)
+- Firefox (última versão | latest | última versión)
+- Safari (última versão | latest | última versión)
+- Edge (última versão | latest | última versión)
 
-- Mobile-first approach
-- Fluid typography
-- Adaptive layouts
-- Touch-optimized interactions
+## 📱 Design Responsivo | Responsive Design | Diseño Responsivo
 
-## 🚀 Performance Optimizations
+- Abordagem mobile-first | Mobile-first approach | Enfoque mobile-first
+- Tipografia fluida | Fluid typography | Tipografía fluida
+- Layouts adaptativos | Adaptive layouts | Layouts adaptativos
+- Interações otimizadas para touch | Touch-optimized interactions | Interacciones optimizadas para touch
 
-- Minified assets
-- Optimized images
-- Efficient CSS selectors
-- Reduced repaints and reflows
+## 🚀 Otimizações de Performance | Performance Optimizations | Optimizaciones de Rendimiento
 
-## 🔗 Connect with Me
+- Assets minificados | Minified assets | Assets minificados
+- Imagens otimizadas | Optimized images | Imágenes optimizadas
+- Seletores CSS eficientes | Efficient CSS selectors | Selectores CSS eficientes
+- Redução de repaints e reflows | Reduced repaints and reflows | Reducción de repaints y reflows
+
+## 🔗 Conecte-se Comigo | Connect with Me | Conéctate Conmigo
 
 - [LinkedIn](https://www.linkedin.com/in/DevFerreiraG)
 - [GitHub](https://github.com/FuturoDevJunior/euita)
@@ -77,6 +102,6 @@ A high-converting landing page built with modern web technologies, featuring dyn
 
 <div align="center">
 
-Made with ❤️ by [DevFerreiraG](https://github.com/FuturoDevJunior)
+Feito com ❤️ por | Made with ❤️ by | Hecho con ❤️ por [DevFerreiraG](https://github.com/FuturoDevJunior)
 
 </div>
